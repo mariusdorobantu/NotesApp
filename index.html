@@ -1,0 +1,97 @@
+<!doctype html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="style.css">
+            <script src="https://kit.fontawesome.com/3fd9bcf365.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <header>
+                    <form>
+                        <input 
+                            type="text" 
+                            placeholder="Search"
+                        >
+                        <button 
+                            class="nav-placeholder-btn">
+                                + Add
+                        </button>
+                    </form>
+            </header>
+            <main>
+                <section>
+                    <div class="note-delete-message-container note-delete-message-toggle">
+                        <div class="note-delete-message-header">
+                            <p><span 
+                                class="bold-titles">
+                                    Delete Note
+                            </span></p>
+                        </div>
+                        <div class="note-delete-message-body">
+                            <p>Are you sure you want to delete this note?</p>
+                        </div>
+                        <div class="note-delete-message-btn">
+                            <button class="note-delete-cancel-btn note-cancel-btn">
+                                Cancel
+                            </button>
+                            <button class="note-delete-delete-btn delete-message">
+                                Delete
+                            </button>
+                        </div>
+                    </div>
+                    <div class="note-container note">
+                        <div class="note-header">
+                            <h2>Add note</h2>
+                        </div>
+                        <div class="note-body-text">
+                            <p><span 
+                                class="bold-titles">
+                                    Title
+                            </span></p>
+                            <p><span class="bold-titles">
+                                Category
+                            </span></p>
+                        </div>
+                        <div class="note-body-inputs">
+                            <input 
+                                type="text" 
+                                class="note-body-title title" 
+                                placeholder="Add title"
+                            >
+                            <input 
+                                type="text" 
+                                class="note-body-title category" 
+                                placeholder="Work, sport, pets, food, other"
+                            >
+                        </div>
+                        <div class="note-footer-text">
+                            <p><span 
+                                class="bold-titles">Description
+                            </span><span 
+                                    class="grey-elements">
+                                    (optional)
+                            </span></p>
+                            <p><span class="grey-elements">0/200</span></p>
+                        </div>
+                        <form class="note-footer-description">
+                            <textarea 
+                                placeholder="Add description" 
+                                class="footer-input" 
+                                maxlength="100"></textarea>
+                        </form>
+                        <div class="note-footer-btn">
+                            <button 
+                                class="note-cancel-btn note-both-btn">
+                                Cancel
+                            </button>
+                            <button 
+                                class="note-add-btn note-both-btn">
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        <script src="main.js"></script>
+        </body>
+        <footer></footer>
+    </html>
